@@ -11,12 +11,12 @@ const stylest = StyleSheet.create({
     },
     titulo:{
         color: '#fff',
-        fontSize:12,
+        fontSize:20,
         paddingTop:8
     },
-    textoNota:{
-        fontSize:10,
-        color:'#fff',
+    notast:{
+        fontSize:14,
+        color:'white',
         paddingLeft:4,
         
     },
@@ -26,16 +26,19 @@ const stylest = StyleSheet.create({
     },
     tit:{
          color: 'white',
+         fontSize:20,
 
     },
     images:{
-        width:'90%',
+        width:'79%',
         height:540,
         borderRadius:8,
+        borderWidth: 1,
+        borderColor: '#00A8FF'
     },
     body: {
     flex:1,
-    backgroundColor: '#410287',
+    backgroundColor: '#003',
     alignItems:"center",
     
     },

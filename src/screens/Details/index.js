@@ -10,7 +10,7 @@ export default function Detalhes(){
         <View style = {stylest.body}>
             <Text style = {stylest.tit}>{route.params.titulo}</Text>
             <Image style={stylest.images} source={{uri : route.params.img}}/>
-            
+            <Text style = {stylest.notast}>{route.params.nota}</Text>
             <Stars
             default={route.params.nota}
             count={5}
