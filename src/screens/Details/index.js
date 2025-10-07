@@ -10,7 +10,7 @@ export default function Detalhes(){
     return(
         <View style = {stylest.body}>
             <Text style = {stylest.tit}>{route.params.titulo}</Text>
-            <Image style={stylest.images} source={{uri : (route.params.img)}}/>
+            <Image style={stylest.images} source={{uri : `https://image.tmdb.org/t/p/original${route.params.img}`}}/>
             <Text style = {stylest.notast}>{route.params.nota}</Text>
             <Stars
             default={route.params.nota}
